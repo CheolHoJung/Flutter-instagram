@@ -28,6 +28,7 @@ class HomePage extends StatelessWidget {
             SizedBox(
               width: 260.0,
               child: Card(
+                elevation: 4.0,
                 child: Column(
                   children: <Widget>[
                     Padding(padding: EdgeInsets.all(4.0)),
