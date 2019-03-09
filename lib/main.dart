@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instargram_clone/root_page.dart';
-import 'package:instargram_clone/tab_page.dart';
+import 'package:instagram_clone/root_page.dart';
+import 'package:instagram_clone/tab_page.dart';
 
 void main() => runApp(MyApp());
 

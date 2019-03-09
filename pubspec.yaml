@@ -1,4 +1,4 @@
-name: instargram_clone
+name: instagram_clone
 description: 인스타그램 클론 프로젝트
 
 # The following defines the version and build number for your application.
@@ -20,6 +20,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   image_picker: ^0.5.0+3
+  flutter_signin_button: ^0.2.5
 
 dev_dependencies:
   flutter_test:

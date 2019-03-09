@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-            title: Text('Instargram Clone',
+            title: Text('Instagram Clone',
                 style: TextStyle(
                     color: Colors.black, fontWeight: FontWeight.bold))),
         body: _buildBody());
@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Text(
-              'Instargram에 오신 것을 환영합니다',
+              'Instagram에 오신 것을 환영합니다',
               style: TextStyle(fontSize: 22.0),
             ),
             Padding(padding: EdgeInsets.all(8.0)),
