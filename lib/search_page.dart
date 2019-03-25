@@ -57,15 +57,20 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   Widget _buildListItem(context, document) {
-    return InkWell(
-      onTap: () {
-        Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return DetailPostPage(document);
-        }));
-      },
-      child: Image.network(
-        document['photoUrl'],
-        fit: BoxFit.cover,
+    return Hero(
+      tag: document['photoUrl'],
+      child: Material(
+        child: InkWell(
+          onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) {
+              return DetailPostPage(document);
+            }));
+          },
+          child: Image.network(
+            document['photoUrl'],
+            fit: BoxFit.cover,
+          ),
+        ),
       ),
     );
   }
